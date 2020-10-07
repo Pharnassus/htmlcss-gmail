@@ -1,0 +1,76 @@
+/* "*"selettore jolly; vale per tutti i tag della pagina html */
+*{
+  /* ridimensione tutto nel container o box in automatico */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url("../img/wood.jpg");
+  width: 60%;
+  /* il primo elemento è riferimento verticale l'atro orizz */
+  margin: 0 auto;
+}
+
+#logo{
+  vertical-align: middle;
+  height: 90px;
+  padding: 10px 0px;
+}
+#title{
+  color: white;
+  display: inline-block;
+  /* ISTRUZIONI molto imposrtanti per un'ALLINEAMENTO PERFETTO */
+  /* giocaci per capire meglio le cose */
+  /* line-heigh per i testi */
+  /* vertical-align per le immagini e i box */
+  vertical-align: middle;
+  height: 90px;
+  line-height: 90px;
+}
+
+#header-bottom{
+  padding: 10px 0px;
+}
+#count{
+  margin-top: 10px;
+  height: 60px;
+  color: white;
+}
+#unread-count{
+  display: inline-block;
+  background: orange;
+  /* grandezza del blocco quadrato/cerchio */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* ISTRUZIONI molto imposrtanti per un'ALLINEAMENTO PERFETTO */
+  /* giocaci per capire meglio le cose */
+  line-height: 40px;
+  text-align: center;
+}
+
+#email-list{
+  padding: 20px 0px;
+}
+.email{
+  border: 1px solid black;
+  padding: 2px;
+  background: lightgray;
+}
+.read{
+  background: white;
+}
+.email-body{
+  color: gray;
+}
+
+footer{
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+#footer-title{
+  display: inline-block;
+}
